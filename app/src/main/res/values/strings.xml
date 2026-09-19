@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Android screen mirror</string>
+    <string name="accessibility_service_descriptionc">本服务用于XXX，仅实现XX辅助功能，不会收集隐私信息</string>
+    <string name="accessibility_service_description">本服务用于无障碍辅助功能</string>
+</resources>

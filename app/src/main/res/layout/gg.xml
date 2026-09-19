@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <!-- 文本框1：统一高度 + 蓝色字体 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#0066FF"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"/>
+
+    <!-- 文本框2：统一高度 + 深蓝色字体 + 间距 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/edit_text"
+        android:textColor="#003399"
+        android:textSize="18sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"/>
+
+    <!-- 返回按钮：统一高度 + 白色字体 + 红色背景 -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:text="返回"
+        android:textColor="#FFFFFF"
+        android:background="#FF0000"/>
+
+</LinearLayout>
